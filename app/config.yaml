@@ -1,0 +1,17 @@
+apiVersion: 3
+dataDisplay:
+  noneValues:
+  - none
+  - unknown
+  - null
+  - NA
+docs:
+  docPage: about
+  featureBase: '{docBase}/transcription.md'
+  featurePage: transcription
+interfaceDefaults: {}
+provenanceSpec:
+  corpus: Hexapla
+  version: '0.1'
+typeDisplay: {}
+writing: ''
