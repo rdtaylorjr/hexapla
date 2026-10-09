@@ -5,6 +5,7 @@
 @copynote2=© Göttingen Academy of Sciences and Humanities in Lower Saxony
 @copynote3=Modified: converted from JSON to Text-Fabric, see docs/transcription.md. Provided as is, without warranties, see the disclaimer in the license.
 @description=sigla of the witnesses attesting the reading (comma separated)
+@language=grc,heb,lat
 @license=Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
 @licenseUrl=https://creativecommons.org/licenses/by-nc-sa/4.0/
 @name=Hexapla
@@ -14,7 +15,7 @@
 @valueType=str
 @version=0.1
 @writtenBy=Text-Fabric
-@dateWritten=2026-10-09T08:34:54+00:00Z
+@dateWritten=2026-10-09T16:50:17+00:00Z
 
 271224	Field
 273543	Field

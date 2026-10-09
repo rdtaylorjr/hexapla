@@ -245,6 +245,11 @@ def _sigla(attestations: Iterable[dict[str, Any]]) -> Iterable[str]:
             yield label
 
 
+def languages(found: Iterable[Row]) -> str:
+    """Lists the language codes of the rows, without their script, as the metadata of the dataset."""
+    return ",".join(sorted({row.language.split("-")[0] for row in found if row.language}))
+
+
 def convert(
     source: Path = SOURCE_DIR,
     target: Path = TF_DIR,
@@ -261,7 +266,7 @@ def convert(
             lambda walker: director(walker, found),
             slotType,
             otext=otext,
-            generic=generic,
+            generic={**generic, "language": languages(found)},
             intFeatures=intFeatures,
             featureMeta=featureMeta,
         )

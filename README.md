@@ -1,5 +1,11 @@
 # Hexapla
 
+[![Project Status: WIP – Initial development is in progress, but there has not yet been a stable, usable release suitable for the public.](https://www.repostatus.org/badges/latest/wip.svg)](https://www.repostatus.org/#wip)
+
+[![etcbc](docs/images/etcbc.png)](http://www.etcbc.nl)
+![logo](docs/images/logo.png)
+[![tf](docs/images/tf-small.png)](https://annotation.github.io/text-fabric/tf)
+
 ## About
 
 This is the
@@ -38,7 +44,9 @@ A = use('rdtaylorjr/hexapla')
 ```
 
 See also
-[start](tutorial/start.ipynb).
+[start](https://nbviewer.jupyter.org/github/rdtaylorjr/hexapla/blob/main/tutorial/start.ipynb)
+and
+[search](https://nbviewer.jupyter.org/github/rdtaylorjr/hexapla/blob/main/tutorial/search.ipynb).
 
 # Author
 

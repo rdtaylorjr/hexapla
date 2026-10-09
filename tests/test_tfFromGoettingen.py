@@ -225,6 +225,7 @@ def test_convert_writes_the_attribution_and_license_into_the_metadata(tmp_path):
     otext = (tmp_path / 'tf' / 'otext.tf').read_text(encoding='utf-8')
     assert '@copynote1=Die Editio critica maior des griechischen Psalters.' in otext
     assert '@licenseUrl=https://creativecommons.org/licenses/by-nc-sa/4.0/' in otext
+    assert '@language=grc,heb' in otext
 
 
 def test_main_reports_success_and_failure(tmp_path):
