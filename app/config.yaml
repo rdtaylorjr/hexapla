@@ -13,5 +13,6 @@ interfaceDefaults: {}
 provenanceSpec:
   corpus: Hexapla
   version: '0.1'
+  branch: main
 typeDisplay: {}
 writing: ''
